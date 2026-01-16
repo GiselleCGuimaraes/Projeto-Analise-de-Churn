@@ -54,7 +54,6 @@ A análise possui caráter exploratório e descritivo, tendo como objetivo ident
   -  Seaborn
   -  Matplotlib
  
-- Power Bi para elaboração do dashboard
 - Canva para apresentação
   
 ## Abordagem Analítica e Metodologia
@@ -73,12 +72,42 @@ Como resultado do processo analítico, foram gerados os seguintes entregáveis:
 
 [Notebook em Python](https://github.com/GiselleCGuimaraes/Projeto-Analise-de-Churn/blob/main/An%C3%A1lise_de_Churn_empresa_SAAS.ipynb) contendo todo o processo de tratamento, exploração e análise dos dados, com código comentado e visualizações que documentam as etapas da análise exploratória e a validação das hipóteses levantadas;
 
-Dashboard interativo, desenvolvido com foco no monitoramento da taxa de churn e de métricas de engajamento, permitindo segmentações por perfil de cliente, tipo de contrato e plano;
 
 Apresentação executiva, consolidando os principais insights e conclusões da análise de forma objetiva e orientada ao suporte à tomada de decisão por stakeholders de negócio.
 
 Esses entregáveis permitem tanto a análise técnica quanto a comunicação clara dos resultados para públicos técnicos e não técnicos.
 
 ## Principais Insights Gerados  
+**Análise de Perfil dos clientes**
+* A base de clientes é bem balanceada, com 50.5% Pequenas Empresas e 49.5% Micro Empresas.
+* Predominância de micro e pequenas empresas, com 70.0% possuindo até 5 funcionários e 30.0% com 6 ou mais funcionários.
+* A distribuição mostra uma alta concentração de clientes nos primeiros meses, com a **frequência diminuindo acentuadamente à medida que a permanência aumenta**. A média é de 32.4 meses, com a mediana em 29 meses.
+* A maioria dos clientes faz conciliação manual (44.0%) ou automática (34.4%), com 21.7% não realizando, o que indica menor nível de maturidade tecnologica.
+* Observa-se que uma parcela significativa de clientes faz 'Pouco uso' (cerca de 40-50%) ou 'Nunca utilizou' (cerca de 20%) das funcionalidades de módulos (financeiro, vendas, relatórios, APIs).
+* A maioria tem contrato Mês-a-mês (55.0%), seguido por Anual (24.1%) e Trimestral (20.9%).
+* A maioria dos clientes (59.2%) emite boletos.
+* A maioria das empresas foi fundada entre 2016 e 2021, indicando uma base de clientes predominantemente jovem.
+
+**Análise do Churn – Comparação entre Abril/2025 e Maio/2025**
+
+A taxa de churn aumentou 24.63% de abril para maio de 2025, passando de 14.86% para 18.52% em relação aos clientes ativos no início de cada mês. Este crescimento percentual, embora em pontos absolutos menores, indica uma aceleração dos cancelamentos e valida a hipótese inicial.
+Número de Churns: 911 em abril/2025 e 958 em maio/2025.
+
+**Análise do Churn – Padrões Observados**
+
+* Clientes nos primeiros 12 meses de contrato têm a maior taxa de churn (48.3%). Os primeiros 1 a 4 meses são ainda mais críticos, com taxas acima de 47% (chegando a 62% no primeiro mês).A taxa de churn diminui drasticamente com o tempo, atingindo 8.3% para 61-72 meses de permanência.
+
+<img width="990" height="590" alt="% churn por meses de permanencia" src="https://github.com/user-attachments/assets/d4222f11-8a4a-485b-bd61-0ad8e5dcc4fd" />
+
+* Contratos 'Mês-a-mês' apresentam a maior taxa de churn (42.7%). Contratos 'Trimestrais' têm churn moderado (11.3%).Contratos 'Anuais' são os mais estáveis, com apenas 2.8% de churn.O que indica que modalidades mais longas de contrato têm menor chance de churn.  
+
+<img width="990" height="590" alt="% churn x tipo de contrato" src="https://github.com/user-attachments/assets/4581a17b-eb48-4255-ad0e-a2a2a767672f" />
+
+* Em relação a engajamentocom funcionalidades, clientes com 'Pouco uso' de qualquer módulo (financeiro, vendas, relatórios, APIs, etc.) têm as maiores taxas de churn (33-42%). Clientes que 'Nunca utilizaram' funcionalidades específicas têm as menores taxas de churn (7.4%), sugerindo que a funcionalidade pode não ser crítica para eles.
+
+  <img width="990" height="590" alt="%churn x módulo financeiro" src="https://github.com/user-attachments/assets/d2828b32-14e5-4311-a407-e7831adb5079" />
+
+*
+
 
 ## Considerações Finais
