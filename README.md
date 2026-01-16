@@ -107,7 +107,51 @@ Número de Churns: 911 em abril/2025 e 958 em maio/2025.
 
   <img width="990" height="590" alt="%churn x módulo financeiro" src="https://github.com/user-attachments/assets/d2828b32-14e5-4311-a407-e7831adb5079" />
 
-*
+* Clientes que fazem conciliação 'manual' têm a maior taxa de churn (41.9%). Conciliação 'automática' (19.0%) e 'não fazem' (7.4%) apresentam churn significativamente menor.
 
+<img width="990" height="590" alt="%churn x  conciliação bancaria" src="https://github.com/user-attachments/assets/2261ad82-1d41-4a26-bf86-835606ecd314" />
+
+* Empresas com 'até 5 funcionários' (31.3% de churn) são mais propensas ao churn do que as com '6 ou mais funcionários' (15.5%).
+Empresas com 'apenas um sócio' (33.0% de churn) têm churn mais alto que as com 'mais de um sócio' (19.7%).
+
+<img width="990" height="590" alt="%churnxquantidade defuncionarios" src="https://github.com/user-attachments/assets/24954f70-cf57-433c-bfcf-a030ace83dbb" />
+
+<img width="990" height="590" alt="%churnx mais de um socio" src="https://github.com/user-attachments/assets/5f3e408c-e328-4148-bd02-523ba169b346" />
+
+* Receita (Mensal e Total): Clientes com menor receita mensal e menor receita total acumulada são mais propensos a churnar. 
 
 ## Considerações Finais
+
+Este projeto realizou uma análise de churn para uma empresa SaaS, com o objetivo de entender o comportamento dos usuários e apoiar estratégias de retenção. A análise exploratória de dados cadastrais e eventos de uso da plataforma permitiu identificar o perfil dos clientes, validar a hipótese de aumento do churn e identificar padrões críticos.
+
+**Hipótese Validada:** A taxa de churn aumentou 24.63% de abril para maio de 2025, passando de 14.86% para 18.52%, confirmando a tendência de aceleração nos cancelamentos.
+
+**Fatores Críticos de Churn:**
+
+* Meses de Permanência: Os primeiros 12 meses são o período de maior risco, com quase 50% de churn. Clientes de 1 a 4 meses apresentam taxas acima de 47%, enquanto clientes com 61-72 meses têm apenas 8.3% de churn.
+
+* Tipo de Contrato: Contratos Mês-a-mês (42.71% de churn) são os mais instáveis, versus contratos Anuais (2.83% de churn).
+
+* Engajamento com Funcionalidades: Clientes com 'Pouco uso' de módulos (financeiro, vendas, relatórios, APIs, etc.) têm as maiores taxas de churn (33-42%). Quem 'Nunca utilizou' tem taxas baixas (7.4%), sugerindo que a funcionalidade pode não ser essencial para eles.
+
+* Conciliação Bancária: Clientes que fazem conciliação 'manual' (41.89% de churn) são um grupo de alto risco.
+
+* Perfil da Empresa: Empresas com 'até 5 funcionários' (31.28% de churn) e 'apenas um sócio' (32.96% de churn) são mais propensas a cancelar.
+
+* Receita: Clientes com menor receita mensal e menor receita total acumulada são mais vulneráveis ao churn.
+
+* Emissão de Boletos: Curiosamente, clientes que emitem boletos (33.57% de churn) têm uma taxa maior de cancelamento do que os que não emitem (16.33%).
+
+**Próximos Passos e Recomendações Estratégicas**
+
+Os insights gerados fornecem um roteiro claro para a equipe de negócios focar seus esforços de retenção:
+
+* Aprimorar Onboarding e Suporte Inicial: Focar intensamente nos primeiros 12 meses de contrato, com programas de engajamento proativos, treinamento e demonstração de valor, especialmente para clientes com 'Pouco uso' de funcionalidades. Este é o período mais crítico.
+
+* Incentivar Contratos de Longo Prazo: Criar estratégias (descontos, benefícios) para migrar clientes de planos 'Mês-a-mês' para contratos 'Trimestrais' ou 'Anuais', aumentando a fidelização.
+
+* Investigar Dores Específicas: Realizar pesquisas e entrevistas aprofundadas com clientes que fazem conciliação 'manual' ou que 'emitem boletos' e churnaram, para entender os motivos e desenvolver soluções direcionadas.
+
+* Personalizar Abordagem para Pequenas Empresas: Desenvolver ofertas e suporte adaptados para empresas com 'até 5 funcionários' e 'apenas um sócio', reconhecendo suas necessidades específicas e potencial vulnerabilidade.
+
+* Monitoramento Contínuo: Utilizar o arquivo base_churn_powerbi.csv para construir dashboards dinâmicos no Power BI, permitindo o acompanhamento em tempo real das métricas de churn e a performance das ações de retenção.
