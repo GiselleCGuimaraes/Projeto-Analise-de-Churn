@@ -13,14 +13,14 @@ Como entregáveis, o projeto resultou em um notebook em Python totalmente docume
 ## Índice
 
 1. [Visão Geral do Projeto](#visao-geral-do-projeto)
-2. Escopo e Premissas da Análise
+2. [Escopo e Premissas da Análise](#escopo-e-premissas-da-analise)
 3. Ferramentas e Tecnologias
 4. Abordagem Analítica e Metodologia
 5. Entregáveis do Projeto
 6. Principais Insights Gerados
 7. Considerações Finais
 
-## 1. (#visao-geral-do-projeto)
+## Visão Geral do Projeto
 
 Empresas que operam no modelo Software as a Service (SaaS) dependem diretamente da retenção de clientes para garantir a recorrência de receita e a sustentabilidade do negócio. Nesse contexto, o churn torna-se um dos principais indicadores estratégicos, uma vez que variações na taxa de cancelamento podem sinalizar problemas relacionados à experiência do cliente, engajamento com o produto ou modelo de contratação.
 
@@ -37,7 +37,7 @@ Como resultado, foram gerados insights analíticos para apoiar a tomada de decis
 
 ![download](https://github.com/user-attachments/assets/d8bd1750-e9b2-4179-bef2-82045d2bc760)
 
-## 2. Escopo e Premissas da Análise
+## Escopo e Premissas da Análise
    
 A análise foi realizada com dados de churn referentes aos meses de abril e maio de 2025, considerando clientes de uma empresa fictícia que atua no modelo SaaS, com foco em um produto do tipo ERP. Os dados utilizados contemplam informações cadastrais, contratuais e registros de uso da plataforma, permitindo a avaliação do comportamento dos clientes e a identificação de padrões associados ao cancelamento de assinaturas.
 
