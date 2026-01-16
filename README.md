@@ -14,11 +14,11 @@ Como entregáveis, o projeto resultou em um notebook em Python totalmente docume
 
 1. [Visão Geral do Projeto](#visao-geral-do-projeto)
 2. [Escopo e Premissas da Análise](#escopo-e-premissas-da-análise)
-3. Ferramentas e Tecnologias
-4. Abordagem Analítica e Metodologia
-5. Entregáveis do Projeto
-6. Principais Insights Gerados
-7. Considerações Finais
+3. [Ferramentas e Tecnologias](#ferramentas-e-tecnologias)
+4. [Abordagem Analítica e Metodologia](#abordagem-analítica-e-metodologia)
+5. [Entregáveis do Projeto](#entregáveis-do-projeto)
+6. [Principais Insights Gerados](#principais-insights-gerados)
+7. [Considerações Finais](#considerações-finais)
 
 ## Visão Geral do Projeto
 
@@ -46,7 +46,7 @@ Os dados analisados foram obtidos a partir da base disponibilizada no EBA – Es
 
 A análise possui caráter exploratório e descritivo, tendo como objetivo identificar tendências, segmentações relevantes e relações entre engajamento, tipo de contrato e churn, sem a aplicação de modelos preditivos ou inferenciais.
 
-## 3. Ferramentas e Tecnologias
+## Ferramentas e Tecnologias
    
 - Python
   -  Pandas
@@ -57,7 +57,7 @@ A análise possui caráter exploratório e descritivo, tendo como objetivo ident
 - Power Bi para elaboração do dashboard
 - Canva para apresentação
   
-## 4.   Abordagem Analítica e Metodologia
+## Abordagem Analítica e Metodologia
 
 O projeto foi desenvolvido por meio de uma Análise Exploratória de Dados, estruturada em etapas complementares, com o objetivo de compreender a qualidade dos dados, validar hipóteses de negócio e identificar padrões associados à ocorrência de churn.
 
@@ -67,7 +67,7 @@ Na etapa de exploração multivariada, foram realizadas análises temporais para
 
 Os resultados obtidos nessas etapas fundamentaram a construção de indicadores analíticos, visualizações e entregáveis finais do projeto.
 
-## 5. Entregáveis do Projeto
+## Entregáveis do Projeto
 
 Como resultado do processo analítico, foram gerados os seguintes entregáveis:
 
@@ -79,6 +79,6 @@ Apresentação executiva, consolidando os principais insights e conclusões da a
 
 Esses entregáveis permitem tanto a análise técnica quanto a comunicação clara dos resultados para públicos técnicos e não técnicos.
 
-# 6. Principais Insights Gerados  
+## Principais Insights Gerados  
 
-# 7. Considerações Finais
+## Considerações Finais
