@@ -58,7 +58,7 @@ A análise possui caráter exploratório e descritivo, tendo como objetivo ident
   -  Seaborn
   -  Matplotlib
  
-- [Apresentação do Projeto](https://www.canva.com/design/DAG-mij2ews/RA-e-HK9njvmhnDCXCjlWA/view?utm_content=DAG-mij2ews&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h300a033648)
+- Canva para apresentação do projeto.
   
 ## Abordagem Analítica e Metodologia
 
@@ -77,7 +77,7 @@ Como resultado do processo analítico, foram gerados os seguintes entregáveis:
 [Notebook em Python](https://github.com/GiselleCGuimaraes/Projeto-Analise-de-Churn/blob/main/An%C3%A1lise_de_Churn_empresa_SAAS.ipynb) contendo todo o processo de tratamento, exploração e análise dos dados, com código comentado e visualizações que documentam as etapas da análise exploratória e a validação das hipóteses levantadas;
 
 
-Apresentação executiva, consolidando os principais insights e conclusões da análise de forma objetiva e orientada ao suporte à tomada de decisão por stakeholders de negócio.
+[Apresentação do Projeto](https://www.canva.com/design/DAG-mij2ews/RA-e-HK9njvmhnDCXCjlWA/view?utm_content=DAG-mij2ews&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h300a033648), consolidando os principais insights e conclusões da análise de forma objetiva e orientada ao suporte à tomada de decisão por stakeholders de negócio.
 
 Esses entregáveis permitem tanto a análise técnica quanto a comunicação clara dos resultados para públicos técnicos e não técnicos.
 
