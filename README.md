@@ -12,7 +12,7 @@ Como entregáveis, o projeto resultou em um notebook em Python totalmente docume
 
 ## Índice
 
-1. Visão Geral do Projeto
+1. [Visão Geral do Projeto](#visao-geral-do-projeto)
 2. Escopo e Premissas da Análise
 3. Ferramentas e Tecnologias
 4. Abordagem Analítica e Metodologia
@@ -79,4 +79,6 @@ Apresentação executiva, consolidando os principais insights e conclusões da a
 
 Esses entregáveis permitem tanto a análise técnica quanto a comunicação clara dos resultados para públicos técnicos e não técnicos.
 
-6.   
+# 6. Principais Insights Gerados  
+
+# 7. Considerações Finais
