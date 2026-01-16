@@ -20,7 +20,7 @@ Como entregáveis, o projeto resultou em um notebook em Python totalmente docume
 6. Principais Insights Gerados
 7. Considerações Finais
 
-## 1. Visão Geral do Projeto
+## 1. (#visao-geral-do-projeto)
 
 Empresas que operam no modelo Software as a Service (SaaS) dependem diretamente da retenção de clientes para garantir a recorrência de receita e a sustentabilidade do negócio. Nesse contexto, o churn torna-se um dos principais indicadores estratégicos, uma vez que variações na taxa de cancelamento podem sinalizar problemas relacionados à experiência do cliente, engajamento com o produto ou modelo de contratação.
 
