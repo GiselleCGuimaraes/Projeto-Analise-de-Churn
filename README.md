@@ -13,7 +13,7 @@ Como entregáveis, o projeto resultou em um notebook em Python totalmente docume
 ## Índice
 
 1. [Visão Geral do Projeto](#visao-geral-do-projeto)
-2. [Escopo e Premissas da Análise](#escopo-e-premissas-da-analise)
+2. [Escopo e Premissas da Análise](#escopo-e-premissas-da-análise)
 3. Ferramentas e Tecnologias
 4. Abordagem Analítica e Metodologia
 5. Entregáveis do Projeto
