@@ -35,7 +35,11 @@ As principais hipóteses avaliadas ao longo da análise foram:
 
 Como resultado, foram gerados insights analíticos para apoiar a tomada de decisão da área de negócios, além da utilização de Pyhton para tratamento de análise, construção de um dashboard interativo, voltado ao monitoramento de churn e indicadores de engajamento, e de uma apresentação executiva, sintetizando os principais achados da análise de forma clara e acionável para stakeholders não técnicos.
 
+[Apresentação do Projeto](https://www.canva.com/design/DAG-mij2ews/RA-e-HK9njvmhnDCXCjlWA/view?utm_content=DAG-mij2ews&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h300a033648)
+
 ![download](https://github.com/user-attachments/assets/d8bd1750-e9b2-4179-bef2-82045d2bc760)
+
+
 
 ## Escopo e Premissas da Análise
    
@@ -54,7 +58,7 @@ A análise possui caráter exploratório e descritivo, tendo como objetivo ident
   -  Seaborn
   -  Matplotlib
  
-- Canva para apresentação
+- [Apresentação do Projeto](https://www.canva.com/design/DAG-mij2ews/RA-e-HK9njvmhnDCXCjlWA/view?utm_content=DAG-mij2ews&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h300a033648)
   
 ## Abordagem Analítica e Metodologia
 
